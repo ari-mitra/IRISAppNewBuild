@@ -1152,7 +1152,7 @@ a.text-success:hover {
 	position: absolute;
 	left: 0;
 	right: 0;
-	height: 64px;
+	height: 84px;
 	z-index: 1005;
 	background: #0080db;
 	color: rgba(49, 53, 52, 0.6);
@@ -1168,6 +1168,7 @@ a.text-success:hover {
 .headerbar {
 	position: relative;
 	min-height: 50px;
+	margin-top:20px;
 }
 .headerbar:before, .headerbar:after {
 	content: " ";
@@ -5570,7 +5571,7 @@ sub.badge {
 .navbar-search input {
 	display: inline-block;
 	padding: 0 10px;
-	max-width: 0;
+	xmax-width: 0;
 	height: 36px;
 	border: none;
 	-webkit-transition: max-width 0.25s ease-in-out;
@@ -5593,7 +5594,7 @@ sub.badge {
 	background: inherit;
 }
 .navbar-search input {
-	max-width: 500px;
+	width: 300px;
 }
 /*.navbar-search.expanded {
 	background-color: #ffffff;
@@ -7383,7 +7384,7 @@ ul.intbtn li a:hover{ text-decoration:none;}
 }
 .options3 li {
 	display:block;
-	border-left:1px solid #000;
+	border-left:1px solid #8ac242;
 	xheight:38px;
 	xmargin:0 -4px 0 0;
 	padding: 15px 0;
